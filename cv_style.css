@@ -1,0 +1,25 @@
+p {
+    background-image: url("img/logo_avatar.jpg");
+  }
+  
+body {
+    border: 2px solid #bb06f1; /* Параметры рамки */
+	/*background: url("img/logo_avatar.jpg");*/
+	background-size: contain;
+}
+
+h1 {
+   /* width: 220px;*/
+    margin: 1% 75% 80% 31%;
+    /*font-family: "Arial", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;*/
+  }
+  menu {
+    margin: 1% 75% 80% 31%;
+  }
+  .navigation_and_avatar {
+display: flex;
+  }
