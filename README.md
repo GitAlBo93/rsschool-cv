@@ -1,1 +1,1 @@
-# rsschool-cv
+https://GitAlBo93.github.io/rsschool-cv/cv
