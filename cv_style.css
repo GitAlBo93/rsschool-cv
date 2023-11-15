@@ -1,25 +1,36 @@
-p {
-    background-image: url("img/logo_avatar.jpg");
-  }
-  
-body {
-    border: 2px solid #bb06f1; /* Параметры рамки */
-	/*background: url("img/logo_avatar.jpg");*/
-	background-size: contain;
+.body_header h1{
+  margin-top: 4px;
+  display: inline;
+  list-style: none;
 }
 
-h1 {
-   /* width: 220px;*/
-    margin: 1% 75% 80% 31%;
-    /*font-family: "Arial", sans-serif;
-    text-align: center;
-    font-weight: normal;
-    font-size: 56px;
-    line-height: 64px;*/
+.navigation li {
+  display: inline; /* Выровнять по горизонтали */
+  list-style: none; /* Маркированный список: без маркировки */
+  padding: 4px; /* Поля вокруг текста */
+}
+
+
+.section-contacts {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0;/* Левый нижний угол */
+    padding: 13px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #0c0c0c; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    list-style: square; /* Маркированный список: квадраты*/
   }
-  menu {
-    margin: 1% 75% 80% 31%;
+
+  .section-left {
+    float: left;
+    width: 200px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
   }
-  .navigation_and_avatar {
-display: flex;
+
+  .section-top {
+    float: right;
+    margin-left: 130px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+    background: #646060; /* Цвет фона правой колонки */
   }
