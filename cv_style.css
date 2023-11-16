@@ -10,27 +10,60 @@
   padding: 4px; /* Поля вокруг текста */
 }
 
+#container {
+  width: 100%; /* Ширина макета */
+  margin: 0 auto; /* Выравнивание по центру */
+  background: #FCE600; /* Цвет колонок */
+}
 
-.section-contacts {
+.header{
+  font-size: 23px; /* Размер текста */
+  text-align: center; /* Выравнивание по центру */
+  padding: 5px; /* Отступы вокруг текста */
+  background: #D71920; /* Цвет фона шапки */
+  
+}
+ul.header_li li{
+  font-size: 20px;
+  padding: 5px; /* Отступы вокруг текста */
+  list-style: none; /* Маркированный список: без маркировки*/
+  display: inline; /* Отображать как строчный элемент */
+}
+
+
+.left {
+    float: left;
+    width: 30%; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
+    position: fixed; /* Фиксированное положение */
+  }
+
+.top {
+  
+    margin: 0 30% 0 30%; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+    background: #646060; /* Цвет фона правой колонки */
+    /*position: fixed; /* Фиксированное положение */
+  }
+
+.right {
+    
+  /*float: left;*/
+  width: 30%; /* Ширина слоя */
+  margin-left: 70%; /* Выравнивание по центру */
+  background: #1732ca; /* Цвет фона правой колонки */
+  position: fixed; /* Фиксированное положение */
+    
+  }
+
+.footer {
+    
     position: fixed; /* Фиксированное положение */
     left: 0; bottom: 0;/* Левый нижний угол */
     padding: 13px; /* Поля вокруг текста */
     background: #39b54a; /* Цвет фона */
     color: #0c0c0c; /* Цвет текста */
-    width: 100%; /* Ширина слоя */
-    list-style: square; /* Маркированный список: квадраты*/
-  }
-
-  .section-left {
-    float: left;
-    width: 200px; /* Ширина слоя */
-    margin: 0 auto; /* Выравнивание по центру */
-    background: #f0f0f0; /* Цвет фона левой колонки */
-  }
-
-  .section-top {
-    float: right;
-    margin-left: 130px; /* Отступ слева */
-    padding: 10px; /* Поля вокруг текста */
-    background: #646060; /* Цвет фона правой колонки */
+    width: 99%; /* Ширина слоя */
+    list-style: none; /* Маркированный список: квадраты*/
   }
